@@ -18,6 +18,7 @@
 body {
   margin: 0;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   justify-content: center;
   min-width: 320px;
@@ -25,9 +26,13 @@ body {
 }
 
 #app {
+  background-color: lightyellow;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
   max-width: 1280px;
   margin: 0 auto;
-  text-align: center;
+  padding: 10px;
 }
 
 #date {
@@ -38,6 +43,6 @@ body {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: lightyellow;
+    background-color: #fff;
   }
 }
